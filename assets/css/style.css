@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content{
+    display: grid;
+    background: linear-gradient(180deg, #FFFFFF 0%, #9EA3AB 75%, #E3E3E3 100%);
+    height: 100vh;
+    align-content: center;
+}
+.price,
+.buttom-link,
+.goods,
+.name,
+.logo{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+.goods{
+    height: 70vh;
+}
+.goods img{
+    width: 300px;
+    height: 300px;
+}
+.price h2{
+    display: flex;
+    padding: 1rem;
+    background: #FF0000;
+    border-radius: 3px;
+    width: 109px;   
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: 'Barlow Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.name{
+    text-align: center;
+}
+.buttom-link a{
+    animation: a 5s infinite;
+}
+.txt1{
+    text-decoration-color:#DD639B;
+}
+.txt2{
+    text-decoration-color:#E9CFDC ;
+}
+.txt3{
+    text-decoration-color:#CBBFA0 ;
+}
+.txt4{
+    text-decoration-color:#AFB0AF;
+}
+.txt5{
+    text-decoration-color: rgba(209,229,78) ;
+}
+.txt6{
+    text-decoration-color:#ffffff ;
+}
+.txt7{
+    text-decoration-color:#403D1B;
+}
+.txt8{
+    text-decoration-color:#D23528 ;
+}
+@keyframes a {
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+.buttom-link h1{
+    display: flex;
+    background: #111111;
+    border-radius: 3px;
+    padding: 4px 24px 8px;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+}
+.logo{
+    margin: 3rem 0 3rem 0;
+}
+
+.logo img{
+    width: 100px;
+    animation: logo-img 4.5s infinite;
+}
+@keyframes logo-img {
+    0%{
+        opacity: 0.9;
+        transform: rotate(360deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.9;
+    }
+}
+.name{
+    color: black;
+}
+
+.main-content a{
+    text-decoration: none;
+}
+
+.carousel-item {
+    transition: transform 5s ease-in-out;
+  }
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0.3s 0.3s !important;
+  }
